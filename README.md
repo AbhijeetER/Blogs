@@ -26,6 +26,7 @@ A modern, fast, and SEO-friendly blogging platform built entirely with **Next.js
 | **Database** | Prisma ORM / PostgreSQL / MongoDB *(Update based on your stack)* |
 | **Authentication** | NextAuth.js / Clerk *(Update based on your stack)* |
 | **Deployment** | [Vercel](https://vercel.com/) |
+WE are also using libraries like : react-hook-form and zod for input and form validation 
 
 ---
 
