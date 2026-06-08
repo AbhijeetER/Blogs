@@ -1,4 +1,4 @@
-import z from "zod";
+import { z } from "zod";
 export const passwordSchema = z
   .string()
   .min(8, { message: "Password must be at least 8 characters long" })
@@ -13,7 +13,7 @@ export const passwordSchema = z
   .regex(/[^A-Za-z0-9]/, { message: "Password must contain at least one special character" });
 export const signUpSchema=z.object({
     name:z.string().min(3).max(25),
-    email:z.email(),
+    email:z.string().email(),
     password: passwordSchema
 })
 
