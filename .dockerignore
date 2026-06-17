@@ -1,0 +1,12 @@
+nodenode_modules
+.next
+out
+.git
+.gitignore
+*.md
+README.md
+LICENSE
+.vscode
+.*log
+.env
+.env.local
