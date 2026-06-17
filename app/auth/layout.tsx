@@ -9,7 +9,7 @@ const AuthLayout = ({children}:{children:ReactNode}) => {
         <div className='absolute top-5 left-5'>
             <Link href={"/"} className={buttonVariants({variant:'secondary'})} >
             <ArrowLeft className="size-4"/>
-
+              -Simon-Go-Back
             </Link>
 
         </div>

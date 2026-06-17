@@ -44,3 +44,6 @@ node -v
 
 # Install pnpm (if not already installed)
 npm i -g pnpm
+
+
+#for every npx we replace it with pnpm dlx
